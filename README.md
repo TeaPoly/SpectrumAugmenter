@@ -3,7 +3,15 @@ Performs data augmentation as according to the SpecAug paper.
 
 Modified from [Lingvo](https://github.com/tensorflow/lingvo), test audio file is selected from [Sound Examples](http://www.music.helsinki.fi/tmt/opetus/uusmedia/esim/index-e.html).
 
-## How to use:
+## Requirements
+- TensorFlow
+
+For visualizing (option)
+  - matplotlib
+  - librosa
+  - numpy
+
+## How to use
 
 ```python
 from __future__ import absolute_import, division, print_function
@@ -57,6 +65,6 @@ if __name__ == '__main__':
 
 ```
 
-## Reference: 
+## Reference
 
 [SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition](https://arxiv.org/pdf/1904.08779.pdf)
