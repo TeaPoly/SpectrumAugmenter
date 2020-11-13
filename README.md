@@ -1,5 +1,5 @@
 # SpectrumAugmenter
-Performs data augmentation as according to the SpecAug paper.
+Performs data augmentation as according to the SpecAug paper. Modified from [Lingvo](https://github.com/tensorflow/lingvo).
 
 Modified from [Lingvo](https://github.com/tensorflow/lingvo), test audio file is selected from [Sound Examples](http://www.music.helsinki.fi/tmt/opetus/uusmedia/esim/index-e.html).
 
