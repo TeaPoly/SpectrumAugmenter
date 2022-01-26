@@ -16,7 +16,8 @@
 """Lingvo layers that used for spectrum augmentation."""
 
 import tensorflow as tf
-from tensorflow.contrib.training.python.training import hparam
+
+import hparam
 
 
 def GetShape(tensor, ndims=None):
